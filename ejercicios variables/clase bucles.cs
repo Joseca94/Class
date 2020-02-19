@@ -58,7 +58,7 @@ namespace Clase_4
             Console.WriteLine("Escribe otro numero: ");
             int Numero = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < Numero; i++)
+            for (int i = 1; i <= Numero; i++)
 
             {
                 Console.WriteLine(tabla + "x" + i + "=" + (tabla * i));
